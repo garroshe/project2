@@ -1,0 +1,23 @@
+@import 'base/variables';
+
+* {
+    font-family: "MuseoModerno", sans-serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/require';
+@import 'blocks/_promo_media.sass';
+@import 'blocks/_require_media.sass';
+@import 'blocks/_header_media.sass';
